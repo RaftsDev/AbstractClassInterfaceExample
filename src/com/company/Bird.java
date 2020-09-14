@@ -7,7 +7,7 @@ public abstract class Bird extends Animal implements CanFly {
 
     @Override
     public void eat() {
-        System.out.println("Picking...");
+        System.out.println("Pecking...");
     }
 
     @Override
