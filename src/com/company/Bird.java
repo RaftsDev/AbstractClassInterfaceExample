@@ -12,6 +12,6 @@ public class Bird extends Animal implements CanFly {
 
     @Override
     public void fly() {
-        System.out.println(this.getName() + "is flapping its wings");
+        System.out.println(this.getName() + " is flapping its wings");
     }
 }
