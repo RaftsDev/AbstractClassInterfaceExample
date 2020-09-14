@@ -12,5 +12,6 @@ public class Main {
 
         woodPeaker.eat();
         woodPeaker.breath();
+        woodPeaker.fly();
     }
 }
