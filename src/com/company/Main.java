@@ -5,13 +5,13 @@ public class Main {
     public static void main(String[] args) {
 
         Dog dog = new Dog("Yorkie");
-        Bird woodPeaker = new Bird("Woodie");
+        Parrot parrot = new Parrot("Woodie");
 
         dog.eat();
         dog.bark();
 
-        woodPeaker.eat();
-        woodPeaker.breath();
-        woodPeaker.fly();
+        parrot.eat();
+        parrot.breath();
+        parrot.fly();
     }
 }
