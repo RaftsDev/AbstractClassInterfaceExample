@@ -6,6 +6,7 @@ public class Main {
 
         Dog dog = new Dog("Yorkie");
         Parrot parrot = new Parrot("Woodie");
+        Penguin penguin = new Penguin("Emperor");
 
         dog.eat();
         dog.bark();
@@ -13,5 +14,8 @@ public class Main {
         parrot.eat();
         parrot.breath();
         parrot.fly();
+
+        penguin.fly();
+
     }
 }
