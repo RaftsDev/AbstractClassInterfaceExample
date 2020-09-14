@@ -8,6 +8,7 @@ public class Main {
         Parrot parrot = new Parrot("Woodie");
         Penguin penguin = new Penguin("Emperor");
         Bat bat = new Bat("BlackBat");
+        Eagle eagle = new Eagle("WhiteHead");
 
         dog.eat();
         dog.bark();
@@ -19,5 +20,6 @@ public class Main {
         penguin.fly();
         bat.fly();
 
+        eagle.fly();
     }
 }
